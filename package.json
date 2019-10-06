@@ -1,0 +1,21 @@
+{
+  "name": "autocomplete-with-javascript",
+  "version": "1.0.0",
+  "description": "A simple autocomplete example with javascript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "N'Bayramberdiyev <nbayramberdiyev@outlook.com> (https://nbayramberdiyev.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-terser": "^1.2.0"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>Autocomplete with Javascript</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="build/img/favicon.ico">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700&display=swap">
+		<link rel="stylesheet" href="build/css/app.min.css">
+    </head>
+	<body>
+		<main>
+			<div class="container">
+				<h1>Please type your country.</h1>
+				<form id="search" autocomplete="off">
+					<div class="autocomplete">
+						<input type="text" class="input" id="country" name="country" placeholder="Type your country" autofocus>
+						<div class="results-container hidden">
+							<div class="hr"></div>
+							<ul class="listbox" id="results"></ul>
+						</div>
+					</div>
+				</form>
+			</div>
+		</main>
+		<script src="build/js/app.min.js"></script>
+	</body>
+</html>
